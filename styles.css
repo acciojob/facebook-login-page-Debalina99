@@ -21,9 +21,7 @@ body {
 }
 
 .logo {
-  color: #1877f2;
-  font-size: 56px;
-  font-weight: bold;
+  width:300px;
   margin: 0;
 }
 
@@ -84,7 +82,7 @@ hr {
   border-top: 1px solid #dddfe2;
 }
 
-.create-btn {
+.signup{
   background-color: #42b72a;
   color: white;
   padding: 14px;
@@ -96,6 +94,6 @@ hr {
   align-self: center;
 }
 
-.create-btn:hover {
+.signup:hover {
   background-color: #36a420;
 }
