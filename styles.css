@@ -19,12 +19,10 @@ body {
   margin-right: 60px;
   max-width: 500px;
 }
-
 .logo {
   width:300px;
   margin: 0;
 }
-
 .description {
   font-size: 24px;
   line-height: 32px;
