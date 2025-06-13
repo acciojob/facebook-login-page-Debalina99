@@ -1,1 +1,101 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.left {
+  margin-right: 60px;
+  max-width: 500px;
+}
+
+.logo {
+  color: #1877f2;
+  font-size: 56px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.description {
+  font-size: 24px;
+  line-height: 32px;
+  color: #1c1e21;
+}
+
+.right .login-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.login-box input {
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+}
+
+.login-btn {
+  background-color: #1877f2;
+  color: white;
+  padding: 14px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #166fe5;
+}
+
+.forgot-link {
+  text-align: center;
+  font-size: 14px;
+  color: #1877f2;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #dddfe2;
+}
+
+.create-btn {
+  background-color: #42b72a;
+  color: white;
+  padding: 14px;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.create-btn:hover {
+  background-color: #36a420;
+}
